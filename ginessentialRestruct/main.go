@@ -19,6 +19,7 @@ func main() {
 	r.POST("/register", control.Register)
 	r.POST("/login", control.Login)
 	r.GET("/info", middleware.AuthMiddleware(), control.Info)
+	r.GET("hot-fix-test", control.HotfixTest)
 
 	//运行服务器
 	panic(r.Run(":8080"))

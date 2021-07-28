@@ -110,6 +110,11 @@ func Login(c *gin.Context) {
 	})
 }
 
+func HotfixTest(c *gin.Context) {
+	c.JSON(http.StatusOK, gin.H{"code": 200, "data": gin.H{"user": "hot-fix"}})
+
+}
+
 //处理信息
 func Info(c *gin.Context) {
 	user, _ := c.Get("user")
