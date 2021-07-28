@@ -4,7 +4,6 @@ import (
 	"ProjectPractice/ginessentialRestruct/common"
 	"ProjectPractice/ginessentialRestruct/control"
 	"ProjectPractice/ginessentialRestruct/middleware"
-	"fmt"
 	"github.com/gin-gonic/gin"
 	_ "github.com/go-sql-driver/mysql"
 )
@@ -25,4 +24,6 @@ func main() {
 	//运行服务器
 	panic(r.Run(":8080"))
 	fmt.Print("master test...")
+	fmt.Print("git testing...")
+
 }
