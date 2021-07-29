@@ -27,5 +27,6 @@ func main() {
 	fmt.Print("master test...")
 	fmt.Print("git testing...")
 	fmt.Println("push testing")
+	fmt.Println("ssh testing...")
 
 }
