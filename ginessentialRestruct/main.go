@@ -26,5 +26,6 @@ func main() {
 	panic(r.Run(":8080"))
 	fmt.Print("master test...")
 	fmt.Print("git testing...")
+	fmt.Println("push testing")
 
 }
