@@ -28,5 +28,5 @@ func main() {
 	fmt.Print("git testing...")
 	fmt.Println("push testing")
 	fmt.Println("ssh testing...")
-
+	fmt.Println("pull testing...")
 }
