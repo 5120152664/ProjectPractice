@@ -4,6 +4,7 @@ import (
 	"ProjectPractice/ginessentialRestruct/common"
 	"ProjectPractice/ginessentialRestruct/control"
 	"ProjectPractice/ginessentialRestruct/middleware"
+	"fmt"
 	"github.com/gin-gonic/gin"
 	_ "github.com/go-sql-driver/mysql"
 )
